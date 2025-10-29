@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesUnifiedPromotionsSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableGlobalPromotionsEvaluation>false</enableGlobalPromotionsEvaluation>
+    <enableGlobalPromotionsProductCatalogManagement>false</enableGlobalPromotionsProductCatalogManagement>
+    <enableUnifiedPromotions>false</enableUnifiedPromotions>
+</IndustriesUnifiedPromotionsSettings>
