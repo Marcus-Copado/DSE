@@ -13,16 +13,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>BroadcastCommAudience.SiteBannerText</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>BroadcastCommAudience.SiteBannerVisibility</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>BroadcastCommunication.Subject</field>
         <readable>true</readable>
     </fieldPermissions>

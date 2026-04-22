@@ -130,6 +130,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AppliedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>AppliedDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>

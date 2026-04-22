@@ -25,6 +25,11 @@
                 <default>false</default>
                 <label>PMD</label>
             </value>
+            <value>
+                <fullName>sfdx-scanner</fullName>
+                <default>false</default>
+                <label>sfdx-scanner</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -3,6 +3,5 @@
     <fullName>copado__Stage_Default</fullName>
     <fields>Name</fields>
     <fields>copado__Display_Name__c</fields>
-    <fields>copado__Meta_Stage__c</fields>
     <label>Stage Default</label>
 </CompactLayout>
