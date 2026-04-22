@@ -138,10 +138,7 @@
         <customTabListAdditionalFields>HazardType</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsWorkRelated</customTabListAdditionalFields>
         <customTabListAdditionalFields>IncidentCount</customTabListAdditionalFields>
-        <customTabListAdditionalFields>HoursWorked</customTabListAdditionalFields>
         <customTabListAdditionalFields>MonetaryLoss</customTabListAdditionalFields>
-        <customTabListAdditionalFields>WorkingHoursDay</customTabListAdditionalFields>
-        <customTabListAdditionalFields>WorkingDaysReportingPeriod</customTabListAdditionalFields>
         <customTabListAdditionalFields>LostHours</customTabListAdditionalFields>
         <customTabListAdditionalFields>PenaltyType</customTabListAdditionalFields>
         <customTabListAdditionalFields>CorrectiveActionType</customTabListAdditionalFields>
@@ -155,10 +152,7 @@
         <searchResultsAdditionalFields>HazardType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsWorkRelated</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IncidentCount</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>HoursWorked</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MonetaryLoss</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>WorkingHoursDay</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>WorkingDaysReportingPeriod</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LostHours</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PenaltyType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CorrectiveActionType</searchResultsAdditionalFields>

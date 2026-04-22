@@ -84,6 +84,7 @@
         <lockerServiceCSP>false</lockerServiceCSP>
         <lockerServiceNext>true</lockerServiceNext>
         <lockerServiceNextControl>false</lockerServiceNextControl>
+        <lockerTrustedMode>false</lockerTrustedMode>
         <logoutURL>https://welcome.salesforce.com</logoutURL>
         <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
         <redirectionWarning>true</redirectionWarning>

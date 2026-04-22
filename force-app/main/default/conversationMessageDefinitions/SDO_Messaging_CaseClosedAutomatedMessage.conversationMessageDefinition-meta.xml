@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConversationMessageDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+<ConversationMessageDefinition xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <constants>
         <constantType>Image</constantType>
         <primitiveValues>
@@ -34,6 +34,7 @@
                 <type>FormulaTemplate</type>
             </primitiveValues>
         </layoutItems>
+        <layoutVariant xsi:nil="true"/>
         <messageType>StaticContent</messageType>
     </messageLayouts>
     <parameters>

@@ -190,6 +190,6 @@
         <searchResultsAdditionalFields>copado__Epic__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__US_Feature__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Read</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

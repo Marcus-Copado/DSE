@@ -3,6 +3,7 @@
     <deliveryEstimationEnabled>false</deliveryEstimationEnabled>
     <enableActivityFeedPerChangeOrder>false</enableActivityFeedPerChangeOrder>
     <enableB2CIntegration>false</enableB2CIntegration>
+    <enableBillingTypeOrdSummCreation>false</enableBillingTypeOrdSummCreation>
     <enableDuplicateManagement>false</enableDuplicateManagement>
     <enableHighScaleOrders>false</enableHighScaleOrders>
     <enableIndividualOrderItemTaxAdjustments>false</enableIndividualOrderItemTaxAdjustments>

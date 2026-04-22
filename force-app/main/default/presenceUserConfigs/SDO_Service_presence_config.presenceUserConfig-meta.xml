@@ -15,5 +15,6 @@
     <enableDeclineReason>true</enableDeclineReason>
     <enableDisconnectSound>true</enableDisconnectSound>
     <enableRequestSound>true</enableRequestSound>
+    <hasAfterConvoWorkTimer>false</hasAfterConvoWorkTimer>
     <label>SDO - Service Presence Configuration</label>
 </PresenceUserConfig>

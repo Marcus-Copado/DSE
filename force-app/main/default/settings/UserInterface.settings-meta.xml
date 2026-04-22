@@ -21,6 +21,7 @@
     <enableQuickSetupPanel>false</enableQuickSetupPanel>
     <enableRelatedListHovers>true</enableRelatedListHovers>
     <enableSldsV2>false</enableSldsV2>
+    <enableSldsV2DarkModeInCosmos>false</enableSldsV2DarkModeInCosmos>
     <enableSpotlight>true</enableSpotlight>
     <enableTabOrganizer>true</enableTabOrganizer>
     <enableVertNavThemedIconsEnabled>true</enableVertNavThemedIconsEnabled>

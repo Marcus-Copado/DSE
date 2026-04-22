@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Commiter_2026_04_06_10_34_34</label>
+    <mutingPermissionSets>Commiter_2026_04_06_10_34_34_Muted</mutingPermissionSets>
+    <permissionSets>Commiter_2026_04_06_10_34_35_PS</permissionSets>
+    <permissionSets>Custom_UI_App_Access</permissionSets>
+    <permissionSets>cmcSf__Access_Pipeline_Manager</permissionSets>
+    <permissionSets>cmcSf__CMC_SFDX_Admin</permissionSets>
+    <permissionSets>copado__Copado_Functions_User</permissionSets>
+    <permissionSets>copado__Copado_Job_Engine</permissionSets>
+    <permissionSets>copado__Copado_User</permissionSets>
+    <permissionSets>copado__Execute_Automations</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

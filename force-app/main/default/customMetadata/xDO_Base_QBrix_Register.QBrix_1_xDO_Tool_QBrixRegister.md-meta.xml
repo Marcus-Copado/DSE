@@ -10,7 +10,7 @@
         <field>xDO_Description__c</field>
         <value xsi:type="xsd:string">WHO: Jesse Chase
                         WHAT: Custom Metadata type that all QBrix should contain a record for and serves as an installation register
-                        WHEN: October 2025</value>
+                        WHEN: December 2025</value>
     </values>
     <values>
         <field>xDO_Documentation_Link__c</field>
@@ -30,6 +30,6 @@
     </values>
     <values>
         <field>xDO_Version__c</field>
-        <value xsi:type="xsd:string">8d0e219988d4db76727e5e3d1e179043ca259018</value>
+        <value xsi:type="xsd:string">6c21b2758ab32fee2ece37ce64fe6bccd45fa65c</value>
     </values>
 </CustomMetadata>

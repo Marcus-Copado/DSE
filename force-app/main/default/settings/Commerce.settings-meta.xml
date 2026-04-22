@@ -8,6 +8,7 @@
     <commerceDiscoveryExpansion>false</commerceDiscoveryExpansion>
     <commerceEnabled>true</commerceEnabled>
     <convCommShopCopilotEnabled>true</convCommShopCopilotEnabled>
+    <extendCommerceContext>false</extendCommerceContext>
     <lowestUnitPriceTracking>false</lowestUnitPriceTracking>
     <messagingEngagementDataKit>false</messagingEngagementDataKit>
 </CommerceSettings>

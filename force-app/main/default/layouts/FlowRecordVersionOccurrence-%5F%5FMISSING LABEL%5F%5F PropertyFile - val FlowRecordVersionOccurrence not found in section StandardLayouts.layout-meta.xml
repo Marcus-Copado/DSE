@@ -69,9 +69,11 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedObjects>UserRecordAccessId</relatedObjects>
     <relatedObjects>RecordVisibilityId</relatedObjects>
     <relatedObjects>FlowRecordVersionId</relatedObjects>
     <relatedObjects>FlowRecordId</relatedObjects>
+    <relatedObjects>DataSpaceId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>

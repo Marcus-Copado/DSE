@@ -15,6 +15,7 @@
         <value>Closed</value>
     </exitCriteriaFilterItems>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Case.Origin</field>
             <operation>equals</operation>
@@ -58,6 +59,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Case.Priority</field>
             <operation>equals</operation>
@@ -97,6 +99,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Case.Type</field>
             <operation>equals</operation>
@@ -107,6 +110,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneName>Solution Proposed</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
@@ -120,6 +124,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Case.Priority</field>
             <operation>equals</operation>
@@ -130,6 +135,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Case.Priority</field>
             <operation>equals</operation>

@@ -13,6 +13,7 @@
     <enableNegativePointBalance>false</enableNegativePointBalance>
     <enableNonQualifyingPointsConsolidation>true</enableNonQualifyingPointsConsolidation>
     <enablePointsLifecycleTracking>false</enablePointsLifecycleTracking>
+    <enableProcessTraceableTrxnAsync>false</enableProcessTraceableTrxnAsync>
     <enablePromSetupProcRuleStatusInheritDplymt>false</enablePromSetupProcRuleStatusInheritDplymt>
     <enableQPRealTimePointBalance>true</enableQPRealTimePointBalance>
     <enableSegmentQueryApiMultipleDataSpace>true</enableSegmentQueryApiMultipleDataSpace>

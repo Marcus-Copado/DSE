@@ -11,6 +11,7 @@
         <value>true</value>
     </exitCriteriaFilterItems>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Incident.Priority</field>
             <operation>equals</operation>
@@ -26,6 +27,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Incident.Priority</field>
             <operation>equals</operation>
@@ -41,6 +43,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Incident.Type</field>
             <operation>equals</operation>
@@ -51,11 +54,13 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneName>Solution Proposed</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Incident.Priority</field>
             <operation>equals</operation>
@@ -66,6 +71,7 @@
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
     <milestones>
+        <isDisplayedOnLinkedEntity>false</isDisplayedOnLinkedEntity>
         <milestoneCriteriaFilterItems>
             <field>Incident.Priority</field>
             <operation>equals</operation>

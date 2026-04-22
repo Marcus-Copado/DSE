@@ -4,11 +4,15 @@
     <label>PartnerCloudPartnerUserPsg</label>
     <permissionSets>force__ContactInspectionForPartnersPartnerCommunityLoginUser</permissionSets>
     <permissionSets>force__ContactInspectionForPartnersPartnerCommunityUser</permissionSets>
+    <permissionSets>force__DesignRegExpCloudUser</permissionSets>
     <permissionSets>force__EnablementPartner</permissionSets>
     <permissionSets>force__LeadInspectionForPartnersPartnerCommunityLoginUser</permissionSets>
     <permissionSets>force__LeadInspectionForPartnersPartnerCommunityUser</permissionSets>
+    <permissionSets>force__MDFForPartnerCommunityLoginUsers</permissionSets>
+    <permissionSets>force__MDFForPartnerCommunityUsers</permissionSets>
     <permissionSets>force__PartnerWalkthroughs</permissionSets>
     <permissionSets>force__PipelineInspectionForPartnersPartnerCommunityLoginUser</permissionSets>
     <permissionSets>force__PipelineInspectionForPartnersPartnerCommunityUser</permissionSets>
+    <permissionSets>force__PriceProtectionExpCloudPsl</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

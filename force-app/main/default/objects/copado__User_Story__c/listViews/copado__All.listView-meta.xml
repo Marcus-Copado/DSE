@@ -4,6 +4,7 @@
     <columns>NAME</columns>
     <columns>RECORDTYPE</columns>
     <columns>copado__User_Story_Title__c</columns>
+    <columns>copado__Environment__c</columns>
     <columns>copado__Status__c</columns>
     <columns>copado__Priority__c</columns>
     <columns>copado__Order__c</columns>

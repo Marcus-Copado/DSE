@@ -18,6 +18,7 @@
                 <decisionTableName>SDO_Service_Age_Based_Entitlements</decisionTableName>
                 <type>DecisionMatrix</type>
             </decisionTable>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Age Based Entitlements</label>
             <name>AgeBasedEntitlements</name>
             <resultIncluded>true</resultIncluded>
@@ -28,6 +29,7 @@
             <stepType>BusinessKnowledgeModel</stepType>
         </steps>
         <steps>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Branch</label>
             <name>Branch</name>
             <resultIncluded>false</resultIncluded>
@@ -43,6 +45,7 @@
                 <assignedParameter>Determination</assignedParameter>
                 <expression>SDO_Service_Third_Party_Repair_Locations__EntityName + &apos; &apos; + SDO_Service_Third_Party_Repair_Locations__EntityAddress</expression>
             </assignment>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Calculation</label>
             <name>Calculation</name>
             <parentStep>Condition</parentStep>
@@ -59,6 +62,7 @@
                 <assignedParameter>Determination</assignedParameter>
                 <expression>SDO_Service_Age_Based_Entitlements__RepairResource</expression>
             </assignment>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Calculation</label>
             <name>Calculation10</name>
             <parentStep>DefaultLane</parentStep>
@@ -75,6 +79,7 @@
                 <assignedParameter>Determination</assignedParameter>
                 <expression>SDO_Service_Cirrus_Locations__EntityName + &apos; &apos; + SDO_Service_Cirrus_Locations__EntityLocation</expression>
             </assignment>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Calculation</label>
             <name>Calculation8</name>
             <parentStep>Condition6</parentStep>
@@ -91,6 +96,7 @@
                 <decisionTableName>SDO_Service_Cirrus_Locations</decisionTableName>
                 <type>DecisionMatrix</type>
             </decisionTable>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Cirrus Locations</label>
             <name>CirrusLocations</name>
             <parentStep>Condition6</parentStep>
@@ -113,6 +119,7 @@
                 </criteria>
                 <resultParameter>condition_output__1</resultParameter>
             </advancedCondition>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Condition</label>
             <name>Condition</name>
             <parentStep>Branch</parentStep>
@@ -135,6 +142,7 @@
                 </criteria>
                 <resultParameter>condition_output__2</resultParameter>
             </advancedCondition>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Condition</label>
             <name>Condition6</name>
             <parentStep>Branch</parentStep>
@@ -146,6 +154,7 @@
             <stepType>AdvancedCondition</stepType>
         </steps>
         <steps>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Default Lane</label>
             <name>DefaultLane</name>
             <parentStep>Branch</parentStep>
@@ -162,6 +171,7 @@
                 <decisionTableName>SDO_Service_Third_Party_Repair_Locations</decisionTableName>
                 <type>DecisionMatrix</type>
             </decisionTable>
+            <hasNestedExplainability>false</hasNestedExplainability>
             <label>Third Party Repair Locations</label>
             <name>ThirdPartyRepairLocations</name>
             <parentStep>Condition</parentStep>

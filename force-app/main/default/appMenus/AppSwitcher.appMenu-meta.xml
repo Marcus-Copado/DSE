@@ -177,6 +177,10 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Personalization</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__SalesCloudMobile</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -345,6 +349,14 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Shield</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__AgentforceStudio</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__AdvertisingInventoryCalendar</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -438,6 +450,14 @@
     </appMenuItems>
     <appMenuItems>
         <name>cmcSf__CMC_SFDX</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Commiter</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataMaskConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
