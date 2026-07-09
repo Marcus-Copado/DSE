@@ -1,17 +1,17 @@
 public with sharing class ContactDefaults {
 
     /**
-     * Sets the Lead Source to 'Web' if not already populated.
+     * Sets the Lead Source to 'Partner Referral' if not already populated.
      */
     public static Contact setDefaultLeadSource(Contact c) {
         if (c.LeadSource == null) {
-            c.LeadSource = 'Web';
+            c.LeadSource = 'Partner Referral';
         }
         return c;
     }
 
     /**
-     * Sets the Department to 'General' if not already populated.
+     * Sets the Department to 'Sales' if not already populated.
      */
     public static Contact setDefaultDepartment(Contact c) {
         if (c.Department == null) {

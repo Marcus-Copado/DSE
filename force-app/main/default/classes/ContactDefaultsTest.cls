@@ -23,8 +23,8 @@ private class ContactDefaultsTest {
         ContactDefaults.setDefaultLeadSource(c);
         Test.stopTest();
 
-        System.assertEquals('Web', c.LeadSource,
-            'LeadSource should default to Web.');
+        System.assertEquals('Partner Referral', c.LeadSource,
+            'LeadSource should default to Partner Referral.');
     }
 
     @IsTest
@@ -36,8 +36,8 @@ private class ContactDefaultsTest {
         ContactDefaults.setDefaultDepartment(c);
         Test.stopTest();
 
-        System.assertEquals('General', c.Department,
-            'Department should default to General.');
+        System.assertEquals('Sales', c.Department,
+            'Department should default to Sales.');
     }
 
     @IsTest
@@ -49,8 +49,21 @@ private class ContactDefaultsTest {
         ContactDefaults.setDefaultDescription(c);
         Test.stopTest();
 
-        System.assertEquals('New contact added via default automation.', c.Description,
-            'Description should be set to the default value.');
+        System.assertEquals('Contact sourced via partner channel.', c.Description,
+            'Description should be set to the partner channel default.');
+    }
+
+    @IsTest
+    static void testSetDefaultTitle() {
+        Contact c = [SELECT Id, Title FROM Contact LIMIT 1];
+        c.Title = null;
+
+        Test.startTest();
+        ContactDefaults.setDefaultTitle(c);
+        Test.stopTest();
+
+        System.assertEquals('Stakeholder', c.Title,
+            'Title should default to Stakeholder.');
     }
 
     @IsTest
