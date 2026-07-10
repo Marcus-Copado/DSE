@@ -772,6 +772,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>MarketingActionableListUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
@@ -828,14 +832,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PrivacyAgentManage</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PrivacyAgentRead</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -868,14 +864,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunGlobalOptimization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunInDayOptimization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
@@ -897,10 +885,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SetAdvancedOptimizationFilters</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
