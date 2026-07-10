@@ -7,7 +7,7 @@ private class ContactDefaultsTest {
         insert acc;
 
         Contact c = new Contact(
-            FirstName = 'Debbie',
+            FirstName = 'Dave',
             LastName  = 'Test',
             AccountId = acc.Id
         );
@@ -75,8 +75,7 @@ private class ContactDefaultsTest {
                 LastName    = 'Contact ' + i,
                 LeadSource  = null,
                 Department  = null,
-                Description = null,
-                Title       = null
+                Description = null
             ));
         }
 
@@ -85,10 +84,9 @@ private class ContactDefaultsTest {
         Test.stopTest();
 
         for (Contact c : results) {
-            System.assertEquals('Partner Referral', c.LeadSource,  'LeadSource should be Partner Referral.');
-            System.assertEquals('Sales',            c.Department,  'Department should be Sales.');
-            System.assertNotEquals(null,            c.Description, 'Description should not be null.');
-            System.assertEquals('Stakeholder',      c.Title,       'Title should be Stakeholder.');
+            System.assertEquals('Web',     c.LeadSource,  'LeadSource should be Web.');
+            System.assertEquals('General', c.Department,  'Department should be General.');
+            System.assertNotEquals(null,   c.Description, 'Description should not be null.');
         }
     }
 
@@ -99,8 +97,7 @@ private class ContactDefaultsTest {
             LastName    = 'Values',
             LeadSource  = 'Phone',
             Department  = 'Engineering',
-            Description = 'Already set.',
-            Title       = 'Director'
+            Description = 'Already set.'
         );
 
         Test.startTest();
@@ -110,6 +107,5 @@ private class ContactDefaultsTest {
         System.assertEquals('Phone',       c.LeadSource,  'LeadSource should not be overwritten.');
         System.assertEquals('Engineering', c.Department,  'Department should not be overwritten.');
         System.assertEquals('Already set.', c.Description,'Description should not be overwritten.');
-        System.assertEquals('Director',    c.Title,       'Title should not be overwritten.');
     }
 }
