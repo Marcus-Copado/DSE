@@ -15,7 +15,7 @@ public with sharing class ContactDefaults {
      */
     public static Contact setDefaultDepartment(Contact c) {
         if (c.Department == null) {
-            c.Department = 'Sales';
+            c.Department = 'General';
         }
         return c;
     }
@@ -25,17 +25,7 @@ public with sharing class ContactDefaults {
      */
     public static Contact setDefaultDescription(Contact c) {
         if (c.Description == null) {
-            c.Description = 'Contact sourced via partner channel.';
-        }
-        return c;
-    }
-
-    /**
-     * Sets the Contact Title to 'Stakeholder' if not already populated.
-     */
-    public static Contact setDefaultTitle(Contact c) {
-        if (c.Title == null) {
-            c.Title = 'Stakeholder';
+            c.Description = 'New contact added via default automation.';
         }
         return c;
     }
@@ -48,7 +38,6 @@ public with sharing class ContactDefaults {
             setDefaultLeadSource(c);
             setDefaultDepartment(c);
             setDefaultDescription(c);
-            setDefaultTitle(c);
         }
         return contacts;
     }
