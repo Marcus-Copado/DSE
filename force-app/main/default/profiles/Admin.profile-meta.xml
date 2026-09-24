@@ -24,10 +24,18 @@
     </classAccesses>
     <custom>false</custom>
     <description n1:nil="true" />
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Rating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>sfdc_default_ReportExport_Protection_Flow</flow>
     </flowAccesses>
+    <layoutAssignments>
+        <layout>Account-SDO - Account Community</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
@@ -564,6 +572,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageGlobalConsent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageHealthCheck</name>
     </userPermissions>
     <userPermissions>
@@ -800,6 +812,18 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>PlatformWebIdeUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PrivacyAgentManage</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PrivacyAgentRead</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -832,6 +856,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>RunGlobalOptimization</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunInDayOptimization</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
@@ -853,6 +885,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SetAdvancedOptimizationFilters</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -941,6 +977,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseOrderManagementAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseOrderManagementSetupAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1060,6 +1100,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewProductLimits</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
@@ -1085,6 +1129,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetupAuditTrail</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
