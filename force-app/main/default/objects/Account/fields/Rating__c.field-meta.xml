@@ -30,6 +30,11 @@
                 <default>false</default>
                 <label>Bronze</label>
             </value>
+            <value>
+                <fullName>Untitled</fullName>
+                <default>false</default>
+                <label>Untitled</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
