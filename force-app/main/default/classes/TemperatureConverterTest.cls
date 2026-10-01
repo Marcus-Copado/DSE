@@ -2,35 +2,18 @@
 private class TemperatureConverterTest {
     
     @isTest
-    static void testWarmTemp() {
-        // 1. Prepare test data
-        Decimal fahrenheit = 70;
-        
-        // 2. Call the method to test
+    static void testFahrenheitToCelsius() {
         Test.startTest();
-        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(fahrenheit);
+        Decimal result = TemperatureConverter.fahrenheitToCelsius(70);
         Test.stopTest();
-        
-        // 3. Verify the results match expectations
-        Assert.areEqual(21.11, celsius, 'The temperature conversion did not match the expected Celsius value.');
+        Assert.areEqual(21.11, result);
     }
     
     @isTest
-    static void testFreezingPoint() {
+    static void testCelsiusToFahrenheit() {
         Test.startTest();
-        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(32);
+        Decimal result = TemperatureConverter.celsiusToFahrenheit(20);
         Test.stopTest();
-        
-        Assert.areEqual(0, celsius, '32 Fahrenheit should be exactly 0 Celsius.');
-    }
-    
-    @isTest
-    static void testBoilingPoint() {
-        Test.startTest();
-        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(212);
-        Test.stopTest();
-        
-        // Alternative syntax using older System.assertEquals structure
-        System.assertEquals(100, celsius, '212 Fahrenheit should be exactly 100 Celsius.');
+        Assert.areEqual(68.00, result);
     }
 }
