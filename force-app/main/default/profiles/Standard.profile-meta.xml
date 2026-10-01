@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Standard</fullName>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>Guidance_Center_Demo_Manager</application>
         <default>false</default>
@@ -13385,14 +13385,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>pi__Sobo</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>pi__Sobo_Team</name>
-    </customPermissions>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
         <name>asj__VideoComponentSetting__mdt</name>
@@ -13405,6 +13397,14 @@
         <enabled>true</enabled>
         <name>xdo__Demo_Boost_MQ__mdt</name>
     </customMetadataTypeAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>pi__Sobo</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>pi__Sobo_Team</name>
+    </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>NXDO__Data_Tool_Status__c</name>
@@ -13437,10 +13437,7 @@
         <enabled>true</enabled>
         <name>pi__Trigger_Settings__c</name>
     </customSettingAccesses>
-    <externalDataSourceAccesses>
-        <enabled>false</enabled>
-        <externalDataSource>connectorDataSource</externalDataSource>
-    </externalDataSourceAccesses>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -16972,9 +16969,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Bicycle__c.Warranty_Provider__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -62418,6 +62415,7 @@
     <layoutAssignments>
         <layout>xdo__Demo_Boost_MQ__mdt-xdo__Demo Boost MQ Layout</layout>
     </layoutAssignments>
+    <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>true</allowDelete>
