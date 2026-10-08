@@ -7,14 +7,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountAutomationsTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountOperations</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -572,10 +564,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageGlobalConsent</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageHealthCheck</name>
     </userPermissions>
     <userPermissions>
@@ -812,18 +800,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PlatformWebIdeUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PrivacyAgentManage</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PrivacyAgentRead</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -856,14 +832,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunGlobalOptimization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunInDayOptimization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
@@ -885,10 +853,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SetAdvancedOptimizationFilters</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -977,10 +941,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseOrderManagementAPIs</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UseOrderManagementSetupAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1100,10 +1060,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewProductLimits</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
@@ -1129,10 +1085,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetupAuditTrail</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
