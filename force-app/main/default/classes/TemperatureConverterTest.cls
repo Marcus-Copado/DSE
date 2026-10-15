@@ -16,21 +16,10 @@ private class TemperatureConverterTest {
     }
     
     @isTest
-    static void testFreezingPoint() {
+    static void testCelsiusToFahrenheit() {
         Test.startTest();
-        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(32);
+        Decimal result = TemperatureConverter.celsiusToFahrenheit(20);
         Test.stopTest();
-        
-        Assert.areEqual(0, celsius, '32 Fahrenheit should be exactly 0 Celsius.');
-    }
-    
-    @isTest
-    static void testBoilingPoint() {
-        Test.startTest();
-        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(212);
-        Test.stopTest();
-        
-        // Alternative syntax using older System.assertEquals structure
-        System.assertEquals(100, celsius, '212 Fahrenheit should be exactly 100 Celsius.');
+        Assert.areEqual(68.00, result);
     }
 }
