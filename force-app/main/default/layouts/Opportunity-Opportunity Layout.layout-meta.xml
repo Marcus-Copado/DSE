@@ -34,6 +34,16 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SDO_Sales_Competitor__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SDO_Sales_Discount__c</field>
+            </layoutItems>
+            <layoutItems>
+
+
                 <behavior>Required</behavior>
                 <field>CloseDate</field>
             </layoutItems>
@@ -129,9 +139,6 @@
             <quickActionName>FeedItem.ContentPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Flow._ScheduleAppointment</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -142,9 +149,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewCase</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>NewNote</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
@@ -240,4 +244,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hKZ0000051GTy</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
