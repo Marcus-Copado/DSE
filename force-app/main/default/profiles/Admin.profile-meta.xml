@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
         <apexClass>AccountOperations</apexClass>
         <enabled>true</enabled>
@@ -9,7 +10,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <description n1:nil="true"></description>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>false</editable>
         <field>Car__c.Type__c</field>
@@ -18,7 +19,10 @@
     <layoutAssignments>
         <layout>Car__c-Car Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true"></loginHours>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>ALL</description>
         <endAddress>255.255.255.255</endAddress>
@@ -37,10 +41,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AIViewInsightObjects</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AcceptInboundBundling</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -384,10 +384,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>GrantOutboundBundling</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ImportCustomObjects</name>
     </userPermissions>
     <userPermissions>
@@ -408,10 +404,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>IntegrationIntelligenceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
@@ -425,10 +417,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageAnalyticSnapshots</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageApiNamedQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -508,10 +496,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageCustomerDataOptOut</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageDSARPolicies</name>
     </userPermissions>
     <userPermissions>
@@ -561,10 +545,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageHealthCheck</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHerokuAppLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -733,10 +713,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageWhatsAppMessagingSetup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MarketingActionableListUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -964,6 +940,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UserInteractionInsights</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewAllData</name>
     </userPermissions>
     <userPermissions>
@@ -977,10 +957,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewApiNamedQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1040,10 +1016,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewLicenseUtilization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewMLModels</name>
     </userPermissions>
     <userPermissions>
@@ -1053,10 +1025,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewPlatformEvents</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
